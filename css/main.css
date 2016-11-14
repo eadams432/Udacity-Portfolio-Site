@@ -1,0 +1,51 @@
+article{
+	text-align: center;
+}
+
+h1,h2,h3,h4,article{
+	font-family: 'Lato', sans-serif;
+	color:#2d3c49;
+}
+
+.thin{
+	font-weight:100;
+}
+
+hr{
+	background-color: #7d97ad;
+	padding: 2px;
+}
+
+h2{
+	color:#7d97ad;
+}
+
+h3{
+	font-size: 2em;
+}
+
+.featured img, .banner img{
+	margin:0 auto;
+}
+
+.featured h3{
+	margin-bottom: -.1em;
+	letter-spacing: .1em;
+}
+
+.featured{
+	margin-bottom: 15px;
+}
+.container-fluid{
+	max-width: 1000px;
+}
+
+.logo{
+	margin-top:10px;
+}
+
+@media screen and (max-width: 767px){
+	.logo{
+		display:none;
+	}
+}
